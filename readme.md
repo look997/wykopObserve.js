@@ -20,7 +20,7 @@ Wystarczy utworzyć nowy skrypt w jednym z "Monkey Addons"([GreaseMonkey](https:
 // @version     1.0
 // @author      author
 // @include     https://www.wykop.pl/*
-// @require     https://greasyfork.org/scripts/437595-wykopobserve/code/WykopObserve.js?version=1002287
+// @require     wykopObserve.js
 // @run-at      document-end
 // ==/UserScript==
 
@@ -177,6 +177,7 @@ wykopObserve(filter, function (elements, attrs) {
 
 * [Siwa Broda](https://www.wykop.pl/dodatki/pokaz/789/) - Siwa broda pod awatarem. Tym dłuższa, im dłuższy staż na wykopie. Dodatek autorstwa look997 (mój).
 * [Notatkowator 2020](https://greasyfork.org/pl/scripts/437598-notatkowator-2020) - Szybki podgląd notek. Moja reedycja dodatku Notatkowator 2000, oryginalnie autorstwa piokom123. Działa lepiej niż oryginał.
+* [Blokator obrazów od różowych pasków](https://greasyfork.org/pl/scripts/437596-blokator-obraz%C3%B3w-od-r%C3%B3%C5%BCowych-pask%C3%B3w) - Nazwa mówi sama za siebie. Na głównej, tagach, mikroblogu, mój wykop, stronie użytkownika - blokuje każdy wpis różowego paska, który ma obrazek.
 
 Spokojnie można przepisać np. dodatek "Poczytaj mi mamo", jak i wiele innych, z użyciem biblioteki WykopObserve.
 Także mam nadzieję, że bibliteka ułatwi realizację nowych pomysłów. Wykopowicz z pomysłem, po prostu będzie miał z główy problem wykrywania wpisów, komentarzy itd., może od razu przejść do rzeczy.
