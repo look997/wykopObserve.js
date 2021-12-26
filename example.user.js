@@ -4,7 +4,7 @@
 // @version     1.0
 // @author      author
 // @include     https://www.wykop.pl/*
-// @require     wykopObserve.js
+// @require     https://greasyfork.org/scripts/437595-wykopobserve/code/WykopObserve.js?version=1002287
 // @run-at      document-end
 // ==/UserScript==
 
