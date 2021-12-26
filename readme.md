@@ -20,7 +20,7 @@ Wystarczy utworzyć nowy skrypt w jednym z "Monkey Addons"([GreaseMonkey](https:
 // @version     1.0
 // @author      author
 // @include     https://www.wykop.pl/*
-// @require     wykopObserve.js
+// @require     https://greasyfork.org/scripts/437595-wykopobserve/code/WykopObserve.js?version=1002287
 // @run-at      document-end
 // ==/UserScript==
 
@@ -176,7 +176,7 @@ wykopObserve(filter, function (elements, attrs) {
 ## UserScript-y wykorzystujące bibliotekę wykopObserve
 
 * [Siwa Broda](https://www.wykop.pl/dodatki/pokaz/789/) - Siwa broda pod awatarem. Tym dłuższa, im dłuższy staż na wykopie. Dodatek autorstwa look997 (mój).
-* Notatkowator 2020 - Szybki podgląd notek. Moja reedycja dodatku Notatkowator 2000, oryginalnie autorstwa piokom123. Działa lepiej niż oryginał.
+* [Notatkowator 2020](https://greasyfork.org/pl/scripts/437598-notatkowator-2020) - Szybki podgląd notek. Moja reedycja dodatku Notatkowator 2000, oryginalnie autorstwa piokom123. Działa lepiej niż oryginał.
 
 Spokojnie można przepisać np. dodatek "Poczytaj mi mamo", jak i wiele innych, z użyciem biblioteki WykopObserve.
 Także mam nadzieję, że bibliteka ułatwi realizację nowych pomysłów. Wykopowicz z pomysłem, po prostu będzie miał z główy problem wykrywania wpisów, komentarzy itd., może od razu przejść do rzeczy.
